@@ -1,8 +1,8 @@
 # _javascript-package-template_
 
-<!-- [![npm package version badge.](https://img.shields.io/npm/v/celaria-formats.svg)](https://npmjs.com/package/celaria-formats) -->
-<!-- [![Open GitHub issues badge](https://img.shields.io/github/issues/bunnynabbit/celaria-formats)](https://github.com/BunnyNabbit/celaria-formats/issues) -->
-<!-- [![Coverage status badge.](https://coveralls.io/repos/github/BunnyNabbit/celaria-formats/badge.svg?branch=main)](https://coveralls.io/github/BunnyNabbit/celaria-formats?branch=main) -->
+<!-- [![npm package version badge.](https://img.shields.io/npm/v/change-me.svg)](https://npmjs.com/package/change-me) -->
+<!-- [![Open GitHub issues badge](https://img.shields.io/github/issues/bunnynabbit/change-me)](https://github.com/BunnyNabbit/change-me/issues) -->
+<!-- [![Coverage status badge.](https://coveralls.io/repos/github/BunnyNabbit/change-me/badge.svg?branch=main)](https://coveralls.io/github/BunnyNabbit/change-me?branch=main) -->
 
 A template for _JavaScript_ packages. This is based on what I typically do when setting up a new package. This includes:
 
