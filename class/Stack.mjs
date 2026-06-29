@@ -1,6 +1,5 @@
 export default class Stack {
 	#items = []
-
 	/** @param {any[]} [items=[]] - Initial items, bottom-to-top order. Default is `[]` */
 	constructor(items = []) {
 		// just being safe here, don't want strings
@@ -10,7 +9,6 @@ export default class Stack {
 		// spread so we're not holding a reference to the original array
 		this.#items = [...items]
 	}
-
 	/**@param {any} item - The item to push onto the stack.
 	 * @returns {number} The new size of the stack.
 	 */
@@ -19,19 +17,16 @@ export default class Stack {
 		this.#items.push(item)
 		return this.size
 	}
-
 	/** @returns {any | undefined} The removed top item, or undefined if empty. */
 	pop() {
 		// native pop already handles the empty case for us
 		return this.#items.pop()
 	}
-
 	/** @returns {any | undefined} The top item without removing it, or undefined if empty. */
 	peek() {
 		// just to take a look without really making any changes
 		return this.#items.at(-1)
 	}
-
 	/**Removes all items from the stack.
 	 *
 	 * @returns {this} The stack instance, for chaining.
