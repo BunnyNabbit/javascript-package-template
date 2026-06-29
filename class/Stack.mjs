@@ -1,4 +1,6 @@
+// @ts-check
 export default class Stack {
+	/** @type {any[]} */
 	#items = []
 	/** @param {any[]} [items=[]] - Initial items, bottom-to-top order. Default is `[]` */
 	constructor(items = []) {
