@@ -25,7 +25,7 @@ describe("Stack", () => {
 		expect(stack.peek()).toBe(3)
 		expect(stack.isEmpty).toBe(false)
 	})
-	
+
 	it("should throw a TypeError when constructed with a non-array", () => {
 		// @ts-expect-error Testing invalid constructor input.
 		expect(() => new Stack("hello")).toThrow(TypeError)
