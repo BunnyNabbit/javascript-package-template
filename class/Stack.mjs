@@ -2,7 +2,10 @@
 export default class Stack {
 	/** @type {any[]} */
 	#items = []
-	/** @param {any[]} [items=[]] - Initial items, bottom-to-top order. Default is `[]` */
+	/**Initializes a new instance of {@link Stack}.
+	 *
+	 * @param {any[]} [items=[]] - Initial items, bottom-to-top order. Default is `[]`
+	 */
 	constructor(items = []) {
 		// just being safe here, don't want strings
 		if (!Array.isArray(items)) {
