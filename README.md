@@ -16,5 +16,17 @@ A template for _JavaScript_ packages. This is based on what I typically do when 
 ## What's next?
 
 - [ ] Review and edit `package.json`.
-- [ ] Update *pnpm* with `corepack up`.
+- [ ] Update _pnpm_ with `corepack up`.
 - [ ] Yeet this README.
+
+## Make it yours
+
+For the uninitialized, this template is most likely not aligned to you. In this case, this template serves as a template for templates. Create a new repository with the template and customize it, replacing my name with yours. Some areas to check:
+
+- `package.json`.
+- `LICENSE`
+- `README.md`
+
+Make sure the repository is marked as a 'template repository' in its repository setting on GitHub.
+
+When the template repository is on your account, it will show up as an option when creating a new repository through https://github.com/new.
