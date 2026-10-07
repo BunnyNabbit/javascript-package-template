@@ -10,7 +10,7 @@ A template for _JavaScript_ packages. This is based on what I typically do when 
 - Tests using _Jest_.
 - Type checking on explicitly checked _JavaScript_ files.
 - GitHub Actions workflow for CI and releasing packages.
-- Preset contribution policies, disallowing use of generative AI for code generation.
+- Preset contribution policies, disallowing use of generative AI.
 - Formatting plug-ins and configuration.
 
 ## What's next?
